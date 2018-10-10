@@ -1,0 +1,36 @@
+{
+  "name": "preact-ssr-sandbox",
+  "version": "0.0.1",
+  "description": "A sandbox to play around with Preact + Typescript and friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenpb/preact-ssr-sandbox.git"
+  },
+  "keywords": [
+    "sandbox",
+    "playground",
+    "preact",
+    "ssr",
+    "fastify",
+    "typescript"
+  ],
+  "author": "Kenneth P. Barquero <https://github.com/kenpb/>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/kenpb/preact-ssr-sandbox/"
+  },
+  "homepage": "https://github.com/kenpb/preact-ssr-sandbox/",
+  "dependencies": {
+    "preact": "8.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.10.2"
+  }
+}
