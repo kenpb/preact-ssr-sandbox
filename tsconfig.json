@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
     "sourceMap": true,
     "target": "es5",
     "noImplicitAny": false,
+    "esModuleInterop": true, // https://github.com/parcel-bundler/parcel/pull/530#issuecomment-371783458
     "module": "commonjs",
     "experimentalDecorators": true,
     "allowJs": true,
     "jsx": "react",
     "jsxFactory": "h",
-    "lib": ["es7", "dom"]
+    "lib": ["es6", "es7", "dom"]
   }
 }
